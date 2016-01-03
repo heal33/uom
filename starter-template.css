@@ -8,10 +8,17 @@ body {
 
   background-position: 0% -120%;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+.query {
+  text-align: left;
+  color: #ccc;
+  text-shadow: 1px 1px 1px black;
 }
 
 .footer {
@@ -35,5 +42,10 @@ body {
 	color: white;
 }
 
+
+.category {
+  color: #ccc;
+
+}
 
 
