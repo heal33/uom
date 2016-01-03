@@ -1,14 +1,7 @@
 body {
   padding-top: 50px;
   background: 
-  linear-gradient( to bottom, transparent, rgba(0,0,0,.9) 60%),
-  url("http://www.mocagh.org/origin/uocharter-poster.jpg"),
-  linear-gradient( to bottom, rgba(0,0,0,.5), rgba(0,0,0,.5)),
-  ;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  linear-gradient( to top, rgba(0,0,0,.9), rgba(0,0,0,.9));
 }
 .starter-template {
   padding: 40px 15px;
@@ -48,4 +41,14 @@ body {
 
 }
 
+.bg {
+    background: 
+  linear-gradient( to bottom, rgba(0,0,0,.9), rgba(0,0,0,.9) 60%),
+  url("http://www.mocagh.org/origin/uocharter-poster.jpg")
+  ;
+
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
 
